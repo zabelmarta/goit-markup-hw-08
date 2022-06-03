@@ -163,7 +163,7 @@ body {
   list-style-type: none;
 }
 
-.buttom1,
+.button1,
 .btn {
   font-weight: 500;
   font-size: 16px;
@@ -175,7 +175,7 @@ body {
   border-color: #f5f4fa;
   cursor: pointer;
 }
-.buttom1 {
+.button1 {
   color: #fff;
   background-color: #2196f3;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
