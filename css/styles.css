@@ -1,0 +1,163 @@
+.logo {
+  font-family: "raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  background-position: 215px 24px;
+  text-decoration: none;
+  color: #212121;
+}
+
+.menu {
+  list-style-type: none;
+}
+
+.menu,
+.contact,
+.portfolio {
+  font-family: "roboto";
+  font-size: 14px;
+  font-weight: 500;
+  color: #212121;
+  text-decoration: none;
+  line-height: 1.14;
+}
+
+.portfolio:hover,
+.portfolio:focus {
+  color: #2196f3;
+}
+
+.e-mail,
+.phone {
+  color: #757575;
+  text-decoration: none;
+  line-height: 1.14;
+}
+
+.e-mail:hover,
+.e-mail:focus,
+.phone:hover,
+.phone:focus {
+  color: #2196f3;
+}
+
+body {
+  font-family: "roboto";
+  color: #212121;
+}
+
+.headline {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  color: #fff;
+  background-color: #2f303a;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.buttom {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border-color: #2196f3;
+}
+
+.strength {
+  list-style-type: none;
+}
+
+.head-strength {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.strength1,
+.strength2,
+.strength3,
+.strength4 {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.subheader {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team {
+  list-style-type: none;
+}
+
+.member {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 1875;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.profession {
+  font-size: 16px;
+  line-height: 1, 1875;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.logo-footer {
+  font-family: "raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  background-position: 215px 24px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #2f303a;
+}
+.address,
+.address-mail,
+.address-phone {
+  font-size: 14px;
+  line-height: 1, 714;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  background-color: #2f303a;
+}
+.address-mail,
+.address-phone{
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.address-mail:hover,
+.address-phone:hover,
+.address-mail:focus,
+.address-phone:focus{
+  color: rgba(33, 150, 243,0.6);;
+}
+
+.filters{
+    list-style-type: none;
+}
