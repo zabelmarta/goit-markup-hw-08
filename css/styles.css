@@ -1,3 +1,7 @@
+.container {
+  width: 1200px;
+  display: flex;
+}
 .logo {
   font-family: "raleway";
   font-style: normal;
@@ -5,32 +9,33 @@
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  background-position: 215px 24px;
   text-decoration: none;
   color: #212121;
   padding-left: 215px;
   padding-top: 24px;
+  display: inline-block;
 }
 .navigation-menu ul {
   margin: 0;
   padding: 0;
-  list-style-type: none;
 }
 
 .menu {
   list-style-type: none;
+  display: flex;
 }
 
 .menu-link,
 .contact,
 .portfolio {
-  display: inline-block;
+  display: block;
   font-family: "roboto";
   font-size: 14px;
   font-weight: 500;
   color: #212121;
   text-decoration: none;
   line-height: 1.14;
+  padding-top: 32px;
 }
 
 .portfolio:hover,
@@ -42,20 +47,24 @@
   color: #2196f3;
 }
 .menu-link {
-  padding-left: 453px;
+  padding-left: 93px;
 }
 .portfolio {
-  padding-left: 552px;
-  padding-top: 32px;
+  padding-left: 46px;
 }
 .contact {
-  padding-left: 656px;
+  padding-left: 46px;
 }
 .e-mail,
 .phone {
+  display: inline-block;
   color: #757575;
   text-decoration: none;
-  line-height: 1.14;
+  padding-top: 32px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
 
 .e-mail:hover,
@@ -64,9 +73,17 @@
 .phone:focus {
   color: #2196f3;
 }
-
+.e-mail {
+  padding-left: 371px;
+}
+.phone {
+  padding-left: 50px;
+}
 .head {
+  display: block;
   background-color: #2f303a;
+  width: 1600px;
+  height: 600px;
 }
 .headline {
   font-weight: 900;
@@ -77,6 +94,8 @@
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  align-items: center;
+  padding: 200px 452px 40px;
 }
 .button {
   color: #ffffff;
@@ -93,18 +112,26 @@
   border-radius: 4px;
   border-color: #2196f3;
   cursor: pointer;
+  margin: auto;
+  display: block;
+  width: 200px;
+  height: 50px;
 }
 
 .strength {
   list-style-type: none;
+  display: inline-block;
 }
 
-.head-strength {
+.tittle-strength {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  padding-left: 30px;
+  margin: 0px auto;
+  padding-top: 94px;
 }
 
 .strength1,
@@ -115,6 +142,12 @@
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
+  display: inline-block;
+  width: 270px;
+  height: 75px;
+  padding-top: 10px;
+  padding-left: 30px;
+  margin: 0 auto;
 }
 
 .subheader {
