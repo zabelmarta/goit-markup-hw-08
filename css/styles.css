@@ -8,15 +8,23 @@
   background-position: 215px 24px;
   text-decoration: none;
   color: #212121;
+  padding-left: 215px;
+  padding-top: 24px;
+}
+.navigation-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
 .menu {
   list-style-type: none;
 }
 
-.menu,
+.menu-link,
 .contact,
 .portfolio {
+  display: inline-block;
   font-family: "roboto";
   font-size: 14px;
   font-weight: 500;
@@ -27,13 +35,22 @@
 
 .portfolio:hover,
 .portfolio:focus,
-.menu:hover,
 .contact:hover,
-.menu:focus,
-.contact:focus {
+.contact:focus,
+.menu-link:hover,
+.menu-link:focus {
   color: #2196f3;
 }
-
+.menu-link {
+  padding-left: 453px;
+}
+.portfolio {
+  padding-left: 552px;
+  padding-top: 32px;
+}
+.contact {
+  padding-left: 656px;
+}
 .e-mail,
 .phone {
   color: #757575;
@@ -48,10 +65,6 @@
   color: #2196f3;
 }
 
-body {
-  font-family: "roboto";
-  color: #212121;
-}
 .head {
   background-color: #2f303a;
 }
