@@ -1,7 +1,16 @@
 .container {
   width: 1200px;
   display: flex;
+    margin: 94px 215px 0px;
 }
+.section{
+  width: 1600px;
+}
+.header{
+  padding-bottom: 32px;
+  border-bottom: 1px solid #ECECEC;
+}
+
 .logo {
   font-family: "raleway";
   font-style: normal;
@@ -11,7 +20,7 @@
   letter-spacing: 0.03em;
   text-decoration: none;
   color: #212121;
-  padding-left: 215px;
+
   padding-top: 24px;
   display: inline-block;
 }
@@ -57,7 +66,7 @@
 }
 .e-mail,
 .phone {
-  display: inline-block;
+  display: inline;
   color: #757575;
   text-decoration: none;
   padding-top: 32px;
@@ -74,10 +83,10 @@
   color: #2196f3;
 }
 .e-mail {
-  padding-left: 371px;
+  padding-left: 150px;
 }
 .phone {
-  padding-left: 50px;
+  margin-left: 50px;
 }
 .head {
   display: block;
@@ -96,6 +105,7 @@
   text-transform: uppercase;
   align-items: center;
   padding: 200px 452px 40px;
+  margin-top:0px;
 }
 .button {
   color: #ffffff;
@@ -118,6 +128,17 @@
   height: 50px;
 }
 
+.container_strength,
+.container {
+  margin: 94px 215px 0px;
+}
+
+.strengths {
+  margin: 0px;
+  padding: 0px;
+  width: 1200px;
+}
+
 .strength {
   list-style-type: none;
   display: inline-block;
@@ -132,54 +153,93 @@
   padding-left: 30px;
   margin: 0px auto;
   padding-top: 94px;
+  max-height: 185px;
 }
 
-.strength1,
-.strength2,
-.strength3,
-.strength4 {
+.strength-element {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
   display: inline-block;
-  width: 270px;
+  min-width: 270px;
+  max-width: 293px;
   height: 75px;
   padding-top: 10px;
   padding-left: 30px;
-  margin: 0 auto;
+  margin: 0px;
 }
 
 .subheader {
+  display: inline-block;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-left: 215px;
+  margin-right: 215px;
 }
+.subheader_tittle{
+margin-top: 94px;
+  padding-left: 224px;
+  padding-right: 224px;
+  padding-bottom: 50px;
+  font-size: 36px;
+  
+}
+.subheader_img{
 
+  margin-left: 15px;
+  margin-bottom: 94px;
+}
 .team {
   list-style-type: none;
   background: #f5f4fa;
+  width:1600px;
+  margin-left: -20px;;
+  justify-content: center;
 }
 
-.member {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1, 1875;
+.team .subheader_tittle{
+  padding-top: 94px;
+  padding-left: 695px;
+  margin-bottom: 0px;
+}
+.team .container{
+  margin-top: 0px;
+}
+.worker{
+  display:inline-block;
+  background: #FFFFFF;
+ margin-left: 30px;
+  margin-bottom: 94px;
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+}
+
+.member,
+.profession{
+    font-size: 16px;
+  line-height: 1.1875;
   text-align: center;
   letter-spacing: 0.03em;
+}
+.member {
+  font-weight: 500;
+padding-top: 14px;
 }
 
 .profession {
-  font-size: 16px;
-  line-height: 1, 1875;
-  text-align: center;
-  letter-spacing: 0.03em;
   color: #757575;
+  padding-bottom: 30px;;
 }
 .footer {
   background-color: #2f303a;
+  display: block;
+  padding-left: 215px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .logo-footer {
   font-family: "raleway";
@@ -191,14 +251,17 @@
   background-position: 215px 24px;
   text-decoration: none;
   color: #fff;
+margin-bottom: 20px;
 }
 .address,
 .address-mail,
 .address-phone {
   font-size: 14px;
-  line-height: 1, 714;
+  line-height: 1.714;
   letter-spacing: 0.03em;
   color: #ffffff;
+  margin:9px auto;
+
 }
 .address-mail,
 .address-phone {
@@ -214,6 +277,10 @@
 
 .filters {
   list-style-type: none;
+  display:flex;
+  justify-content: center;
+  margin:0px;
+
 }
 
 .btn {
@@ -226,6 +293,9 @@
   border-radius: 4px;
   border-color: #f5f4fa;
   cursor: pointer;
+  padding: 6px 22px;
+  margin: 8px;
+  margin-top: 174px;
 }
 .btn:hover,
 .btn:focus {
@@ -239,13 +309,25 @@
 
 .projects {
   list-style-type: none;
+  display:flex;
+  flex-wrap: wrap;
+  flex-basis: calc((100%-60px)/3);
+  margin-left: 200px;
+  margin-bottom: 79px;
 }
+.project-item{
+  border:1px solid #EEEEEE;
+   padding-bottom:20px;
+margin:15px;
 
+}
 .project {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  padding-top:20px;
+  padding-left: 24px;
 }
 
 .project-link {
@@ -254,4 +336,6 @@
   letter-spacing: 0.03em;
   color: #757575;
   text-decoration: none;
+   padding-bottom:20px;
+  padding-left: 24px;
 }
