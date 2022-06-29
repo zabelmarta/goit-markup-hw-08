@@ -91,6 +91,8 @@
 .head {
   display: block;
   background-color: #2f303a;
+   background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
+  url(/images/img-menu.jpg);
   width: 1600px;
   height: 600px;
 }
@@ -232,8 +234,39 @@ padding-top: 14px;
 
 .profession {
   color: #757575;
-  padding-bottom: 30px;;
 }
+.social-list{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-left: 0px;
+  margin-bottom: 30px;
+}
+
+.social-list-link{
+  display: flex;
+  width:44px;
+  height: 44px;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-icon{
+  width: 20px;
+  height: 20px;
+
+}
+
+.social-list-link:hover, 
+.social-list-link:focus{
+   fill:#fff;
+   background-color:#2196f3; 
+}
+
+
 .footer {
   background-color: #2f303a;
   display: block;
@@ -274,6 +307,15 @@ margin-bottom: 20px;
 .address-phone:focus {
   color: rgba(33, 150, 243, 0.6);
 }
+
+.social-list-link-footer{
+  display: flex;
+  width:44px;
+  height: 44px;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
 
 .filters {
   list-style-type: none;
