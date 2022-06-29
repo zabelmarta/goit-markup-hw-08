@@ -15,160 +15,226 @@
     />
   </head>
   <body>
-    <header class="header">
+   <header class="header">
       <div class="container">
-        <a href="/" class="logo"
-          ><span style="color: #2196f3">Web</span>Studio</a
-        >
+        <div class="head-main">
+          <div class="head-menu">
+            <a href="/" class="logo"
+              ><span style="color: #2196f3">Web</span>Studio</a
+            >
 
-        <nav class="navigation-menu">
-          <ul class="menu">
-            <li><a href="" class="menu-link">Agencja</a></li>
-            <li><a href="portfolio.html" class="portfolio">Portfolio</a></li>
-            <li><a href="" class="contact">Kontakt</a></li>
-          </ul>
-        </nav>
-
-        <div class="e-mail">
-          <a class="e-mail" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </div>
-        <div class="phone">
-          <a class="phone" href="tel:+48111111111">+48 111 111 111</a>
+            <nav class="navigation-menu">
+              <ul class="menu">
+                <li><a href="" class="menu-link">Agencja</a></li>
+                <li>
+                  <a href="portfolio.html" class="portfolio">Portfolio</a>
+                </li>
+                <li><a href="" class="contact">Kontakt</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="contact-menu">
+            <div class="e-mail">
+              <svg class="mail-icon">
+                <use href="/images/icons.svg#icon-mail"></use>
+              </svg>
+              <a class="e-mail-link" href="mailto:info@devstudio.com"
+                >info@devstudio.com
+              </a>
+            </div>
+            <div class="phone">
+              <svg class="phone-icon">
+                <use href="/images/icons.svg#icon-phone"></use>
+               </svg>
+              <a class="phone-link" href="tel:+48111111111">+48 111 111 111</a>
+             
+            </div>
+          </div>
         </div>
       </div>
     </header>
     <main>
+
+<!-- NAGŁÓWEK -->
+
       <section class="section">
-        <ul class="filters">
-          <li class="filter1">
-            <button type="button" class="btn">Wszystkie</button>
-          </li>
-          <li class="filter2">
-            <button type="button" class="btn">Strony</button>
-          </li>
-          <li class="filter3">
-            <button type="button" class="btn">Aplikacje</button>
-          </li>
-          <li class="filter4">
-            <button type="button" class="btn">Dizajn</button>
-          </li>
-          <li class="filter5">
-            <button type="button" class="btn">Marketing</button>
-          </li>
-        </ul>
+        <div class="container">
+          <ul class="filters">
+            <li class="filter">
+              <button type="button" class="btn">Wszystkie</button>
+            </li>
+            <li class="filter">
+              <button type="button" class="btn">Strony</button>
+            </li>
+            <li class="filter">
+              <button type="button" class="btn">Aplikacje</button>
+            </li>
+            <li class="filter">
+              <button type="button" class="btn">Dizajn</button>
+            </li>
+            <li class="filter">
+              <button type="button" class="btn">Marketing</button>
+            </li>
+          </ul>
+        </div>
       </section>
-      <section class="section">
-        <ul class="projects">
-          <li class="project-item">
-            <img
-              src="images/project1.jpg"
-              alt="technocrack"
-              width="370"
-              height="294"
-            />
-            <div class="project">Technocrack</div>
-            <a href="#" class="project-link">Strona internetowa</a>
-          </li>
-          <li class="project-item">
-            <img
-              src="images/project2.jpg"
-              alt="Grafika New Orlean vs Golden Star"
-              width="370"
-              height="294"
-            />
-            <div class="project">Grafika New Orlean vs Golden Star</div>
-            <a href="#" class="project-link">Dizajn</a>
-          </li>
-          <li class="project-item">
-            <img
-              src="images/project3.jpg"
-              alt="Restauracja Seafood"
-              width="370"
-              height="294"
-            />
-            <div class="project">Restauracja Seafood</div>
-            <a href="#" class="project-link">Aplikacja</a>
-          </li>
-          <li class="project-item">
-            <img
-              src="images/project4.jpg"
-              alt="Projekt Prime"
-              width="370"
-              height="294"
-            />
-            <div class="project">Projekt Prime</div>
-            <a href="#" class="project-link">Marketing</a>
-          </li>
-          <li class="project-item">
-            <img
-              src="images/project5.jpg"
-              alt="Projekt Boxes"
-              width="370"
-              height="294"
-            />
-            <div class="project">Projekt Boxes</div>
-            <a href="#" class="project-link">Aplikacja</a>
-          </li>
-          <li class="project-item">
-            <img
-              src="images/project6.jpg"
-              alt="Inspiration has no Borders"
-              width="370"
-              height="294"
-            />
-            <div class="project">Inspiration has no Borders</div>
-            <a href="#" class="project-link">Strona internetowa</a>
-          </li>
-          <li class="project-item">
-            <img
-              src="images/project7.jpg"
-              alt="Magazyn Limited Edition"
-              width="370"
-              height="294"
-            />
-            <div class="project">Magazyn Limited Edition</div>
-            <a href="#" class="project-link">Dizajn</a>
-          </li>
-          <li class="project-item">
-            <img
-              src="images/project8.jpg"
-              alt="Projekt LAB"
-              width="370"
-              height="294"
-            />
-            <div class="project">Projekt LAB</div>
-            <a href="#" class="project-link">Marketing</a>
-          </li>
-          <li class="project-item">
-            <img
-              src="images/project9.jpg"
-              alt="Growing Business"
-              width="370"
-              height="294"
-            />
-            <div class="project">Growing Business</div>
-            <a href="#" class="project-link">Aplikacja</a>
-          </li>
-        </ul>
+      <section class="section project-list">
+        <div class="container">
+          <ul class="projects">
+            <li class="project-item">
+              <img
+                src="images/project1.jpg"
+                alt="technocrack"
+                width="370"
+                height="294"
+              />
+              <div class="project">Technocrack</div>
+              <a href="#" class="project-link">Strona internetowa</a>
+            </li>
+            <li class="project-item">
+              <img
+                src="images/project2.jpg"
+                alt="Grafika New Orlean vs Golden Star"
+                width="370"
+                height="294"
+              />
+              <div class="project">Grafika New Orlean vs Golden Star</div>
+              <a href="#" class="project-link">Dizajn</a>
+            </li>
+            <li class="project-item">
+              <img
+                src="images/project3.jpg"
+                alt="Restauracja Seafood"
+                width="370"
+                height="294"
+              />
+              <div class="project">Restauracja Seafood</div>
+              <a href="#" class="project-link">Aplikacja</a>
+            </li>
+            <li class="project-item">
+              <img
+                src="images/project4.jpg"
+                alt="Projekt Prime"
+                width="370"
+                height="294"
+              />
+              <div class="project">Projekt Prime</div>
+              <a href="#" class="project-link">Marketing</a>
+            </li>
+            <li class="project-item">
+              <img
+                src="images/project5.jpg"
+                alt="Projekt Boxes"
+                width="370"
+                height="294"
+              />
+              <div class="project">Projekt Boxes</div>
+              <a href="#" class="project-link">Aplikacja</a>
+            </li>
+            <li class="project-item">
+              <img
+                src="images/project6.jpg"
+                alt="Inspiration has no Borders"
+                width="370"
+                height="294"
+              />
+              <div class="project">Inspiration has no Borders</div>
+              <a href="#" class="project-link">Strona internetowa</a>
+            </li>
+            <li class="project-item">
+              <img
+                src="images/project7.jpg"
+                alt="Magazyn Limited Edition"
+                width="370"
+                height="294"
+              />
+              <div class="project">Magazyn Limited Edition</div>
+              <a href="#" class="project-link">Dizajn</a>
+            </li>
+            <li class="project-item">
+              <img
+                src="images/project8.jpg"
+                alt="Projekt LAB"
+                width="370"
+                height="294"
+              />
+              <div class="project">Projekt LAB</div>
+              <a href="#" class="project-link">Marketing</a>
+            </li>
+            <li class="project-item">
+              <img
+                src="images/project9.jpg"
+                alt="Growing Business"
+                width="370"
+                height="294"
+              />
+              <div class="project">Growing Business</div>
+              <a href="#" class="project-link">Aplikacja</a>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
+    <!--    FOOTER    -->
+
     <footer class="footer">
-      <a href="/" class="logo-footer"
-        ><span style="color: #2196f3">Web</span>Studio</a
-      >
-      <address>
-        <p class="address">m. Warszawa, Aleje Jerozolimskie 21</p>
-        <p class="address">
-          <a href="mailto:info@devstudio.com" class="address-mail"
-            >info@devstudio.com</a
-          >
-        </p>
-        <p class="address">
-          <a href="tel:+48111111111" class="address-phone">+48 111 111 111</a>
-        </p>
-      </address>
+      <div>
+        <a href="/" class="logo-footer"
+          ><span style="color: #2196f3">Web</span>Studio</a
+        >
+        <address>
+          <p class="address">m. Warszawa, Aleje Jerozolimskie 21</p>
+          <p class="address">
+            <a href="mailto:info@devstudio.com" class="address-mail"
+              >info@devstudio.com</a
+            >
+          </p>
+          <p class="address">
+            <a href="tel:+48111111111" class="address-phone">+48 111 111 111</a>
+          </p>
+        </address>
+      </div>
+      <div class="social-footer">
+        <p class="social-list-tittle">DOŁĄCZ DO NAS</p>
+        <ul class="social-list-footer">
+          <li class="social-list-item link">
+            <div class="social-link-footer">
+              <a class="social-list-link-footer" href="#">
+                <svg class="social-icon-footer">
+                  <use href="/images/icons.svg#icon-instagram"
+                </svg>
+              </a>
+            </div>
+          </li>
+          <li class="social-list-item link">
+            <div class="social-link-footer">
+              <a class="social-list-link-footer" href="#">
+                <svg class="social-icon-footer">
+                  <use href="/images/icons.svg#icon-twitter"
+                </svg>
+              </a>
+            </div>
+          </li>
+          <li class="social-list-item link">
+            <div class="social-link-footer">
+              <a class="social-list-link-footer" href="#">
+                <svg class="social-icon-footer">
+                  <use href="/images/icons.svg#icon-facebook"
+                </svg>
+              </a>
+            </div>
+          </li>
+          <li class="social-list-item link">
+            <div class="social-link-footer">
+              <a class="social-list-link-footer" href="#">
+                <svg class="social-icon-footer">
+                  <use href="/images/icons.svg#icon-linkedin"
+                </svg>
+              </a>
+            </div>
+          </li>
+        </ul>
+      </div>
     </footer>
   </body>
 </html>
