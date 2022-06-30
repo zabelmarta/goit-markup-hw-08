@@ -451,6 +451,28 @@
           </li>
         </ul>
       </div>
+      <div>
+        <form>
+          <label for="user_email" class="send-tittle"
+            >Zapisz się do newslettera</label
+          >
+          <div class="send">
+            <input
+              class="send-input"
+              type="email"
+              name="email"
+              id="user_email"
+              placeholder="E-mail"
+            />
+            <button type="submit" class="send-btn">
+              Zapisz się
+              <svg class="send-icon">
+                <use href="/images/send.svg#icon-send"></use>
+              </svg>
+            </button>
+          </div>
+        </form>
+      </div>
     </footer>
     <!-- OKNO MODALNE-->
     <div class="backdrop is-hidden" data-modal>
@@ -458,6 +480,50 @@
         <svg class="close-btn" data-modal-close>
           <use href="/images/close-icon.svg#icon-close"></use>
         </svg>
+      
+      <div >
+        <form class="form">
+          <p class="form-tittle">Zostaw swoje dane w formularzu poniżej</p>
+          <label class="form-item"
+            >Imie
+            <input
+              class="form-input input-name"
+              type="text"
+              name="username"
+              id="user_name">
+             
+            </input>
+          </label>
+          <label class="form-item"
+            >Telefon
+            <input
+              class="form-input"
+              type="tel"
+              name="userphone"
+              id="user_phone"
+            />
+          </label>
+          <label class="form-item"
+            >Email
+            <input
+              class="form-input"
+              type="email"
+              name="useremail"
+              id="user_email"
+            />
+          </label>
+          <label class="form-item"
+            >Komentarz
+            <textarea class="form-textarea" name="coment" placeholder="Wprowadź tekst" rows="5"></textarea>
+          </label>
+          <label class="form-policy">
+            <input class="form-policy" type="checkbox" name="policy" value="policy" required />
+            Oświadczam iż akceptuję <a href="#">Regulamin</a> i
+            <a href="#">Politykę Prywatności</a>.
+          </label>
+          <button type="submit" class="form-btn">Wyślij</button>
+        </form>
+      </div>
       </div>
     </div>
     <script src="/js/modal.js"></script>
