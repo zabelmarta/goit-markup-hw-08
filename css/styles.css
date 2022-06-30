@@ -204,7 +204,7 @@
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  padding-left: 30px;
+
   margin: 0px auto;
 
   max-height: 185px;
@@ -220,7 +220,7 @@
   max-width: 293px;
   height: 75px;
   padding-top: 10px;
-  padding-left: 30px;
+
   margin: 0px;
 }
 
@@ -281,8 +281,12 @@
   background-color: rgba(47, 48, 58, 0.8);
 }
 
+
+
 .team {
   background-color: #f5f4fa;
+    padding-top: 0px;
+  margin-top: 94px;
 }
 
 .tittle-list {
@@ -407,12 +411,12 @@
 .footer {
   background-color: #2f303a;
   display: flex;
-  justify-content: space-evenly;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  margin-top: 94px;
-  gap: 70px;
+  justify-content: space-between;
+
+padding-bottom: 60px;
+margin-top: 94px;
 }
+
 .logo-footer {
   font-family: "raleway";
   font-style: normal;

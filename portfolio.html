@@ -215,8 +215,9 @@
     </main>
     <!--    FOOTER    -->
 
-    <footer class="footer">
-      <div>
+   <footer class="footer">
+      <div class="container footer">
+        <div>
         <a href="/" class="logo-footer"
           ><span style="color: #2196f3">Web</span>Studio</a
         >
@@ -272,6 +273,29 @@
             </div>
           </li>
         </ul>
+      </div>
+      <div>
+        <form>
+          <label for="user_email" class="send-tittle"
+            >Zapisz się do newslettera</label
+          >
+          <div class="send">
+            <input
+              class="send-input"
+              type="email"
+              name="email"
+              id="user_email"
+              placeholder="E-mail"
+            />
+            <button type="submit" class="send-btn">
+              Zapisz się
+              <svg class="send-icon">
+                <use href="/images/send.svg#icon-send"></use>
+              </svg>
+            </button>
+          </div>
+        </form>
+      </div>
       </div>
     </footer>
   </body>
