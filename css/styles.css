@@ -505,6 +505,7 @@ margin-top: 94px;
   justify-content: space-around;
   margin-top: 20px;
   gap: 12px;
+
 }
 
 .send-input {
@@ -515,7 +516,7 @@ margin-top: 94px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-  opacity: 1;
+    background-color: #2F303A;
 }
 
 .send-btn {
@@ -724,6 +725,21 @@ margin-top: 94px;
   border-radius: 4px;
 }
 
+
+.form-input:checked{
+border-color: #2196F3;
+}
+
+.input-name::before{
+  display: block;
+  background-image: url(/images/person.svg#icon-person);
+}
+.hidden {
+  -moz-appearance:none;
+  -webkit-appearance:none;  
+  appearance: none;
+}
+
 .person {
   position: absolute;
   width: 12px;
@@ -766,3 +782,4 @@ margin-top: 94px;
   letter-spacing: 0.06em;
   color: #ffffff;
 }
+
