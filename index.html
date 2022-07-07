@@ -167,7 +167,7 @@
 
       <section class="section team">
         <div class="container">
-          <h2 class="tittle-list team-list">Nasz zespół</h2>
+          <h2 class="tittle-list team-list-tittle">Nasz zespół</h2>
           <ul class="team-list">
             <li>
               <div class="worker">
@@ -489,18 +489,21 @@
           <use href="./images/close-icon.svg#icon-close"></use>
         </svg>
       
-      <div >
+     <div >
         <form class="form">
           <p class="form-tittle">Zostaw swoje dane w formularzu poniżej</p>
           <label class="form-item"
             >Imie
             <input
-              class="form-input input-name hidden"
+              class="form-input"
               type="text"
               name="username"
               id="user_name">
              
             </input>
+            <svg class="form-input-icon icon-person">
+              <use href="./images/person.svg#icon-person"></use>
+            </svg>
           </label>
           <label class="form-item"
             >Telefon
@@ -510,6 +513,9 @@
               name="userphone"
               id="user_phone"
             />
+             <svg class="icon-tele">
+              <use href="./images/telephone.svg#icon-telephone"></use>
+            </svg>
           </label>
           <label class="form-item"
             >Email
@@ -518,7 +524,9 @@
               type="email"
               name="useremail"
               id="user_email"
-            />
+            /> <svg class=" icon-mail">
+              <use href="./images/mail.svg#icon-email"></use>
+            </svg>
           </label>
           <label class="form-item"
             >Komentarz
