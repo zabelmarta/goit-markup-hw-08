@@ -10,6 +10,11 @@
   border-bottom: 1px solid #ececec;
 }
 
+.head-main {
+  display: flex;
+  justify-content: space-between;
+}
+
 .logo {
   font-family: "raleway";
   font-style: normal;
@@ -19,7 +24,6 @@
   letter-spacing: 0.03em;
   text-decoration: none;
   color: #212121;
-
   padding-top: 24px;
   display: flex;
 }
@@ -78,10 +82,6 @@
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.head-main {
-  display: flex;
-  justify-content: space-between;
-}
 
 .contact-menu {
   display: flex;
@@ -160,6 +160,7 @@
   display: flex;
   align-items: center;
   text-align: center;
+  justify-content: center;
   letter-spacing: 0.06em;
   text-decoration: none;
   background: #2196f3;
@@ -168,9 +169,9 @@
   border-color: #2196f3;
   cursor: pointer;
   margin: 0px;
-  display: block;
   width: 200px;
   height: 50px;
+  gap: 24px;
 }
 
 .strengths {
@@ -206,9 +207,7 @@
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
   margin: 0px auto;
-
   max-height: 185px;
 }
 
@@ -358,6 +357,7 @@
   padding-left: 0px;
   margin-bottom: 30px;
   gap: 10px;
+  fill:#AFB1B8;
 }
 
 .social-list-link {
@@ -532,21 +532,7 @@ margin-top: 94px;
     background-color: #2F303A;
 }
 
-.send-btn {
-  width: 200px;
-  height: 50px;
-  background-color: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  font-weight: 700;
-  font-size: 16px;
-  letter-spacing: 0.06em;
-  line-height: 1.875;
-  color: #fff;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
+
 
 .send-icon {
   width: 24px;
@@ -818,23 +804,5 @@ margin-top: 94px;
   color: #757575;
   padding-top: 10px;
   padding-bottom: 30px;
-}
-
-.form-btn {
-  width: 200px;
-  height: 50px;
-  background: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.875;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  color: #ffffff;
 }
 

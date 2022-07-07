@@ -1,0 +1,50 @@
+.strengths {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+}
+
+.strength-box {
+    background: #f5f4fa;
+    border-radius: 4px;
+    width: 270px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.strength-icon {
+    width: 70px;
+    height: 70px;
+}
+
+.strength {
+    display: inline-block;
+}
+
+.tittle-strength {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin: 0px auto;
+    max-height: 185px;
+}
+
+.strength-element {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+    display: inline-block;
+    min-width: 270px;
+    max-width: 293px;
+    height: 75px;
+    padding-top: 10px;
+
+    margin: 0px;
+}
