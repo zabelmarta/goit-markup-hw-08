@@ -743,8 +743,16 @@ margin-top: 94px;
 
 }
 
-.form-input:focus{
-border-color: #2196F3;
+.form-input:focus + .icon-person,
+.form-input:focus + .icon-tele,
+.form-input:focus + .icon-mail{
+ border-color:#2196F3;
+ fill:#2196F3;
+}
+
+.form-textarea:focus{
+ border:  #2196F3;
+
 }
 
 .icon-person{
@@ -753,7 +761,7 @@ border-color: #2196F3;
 }
 
 .form-item > .icon-person{
-  top:104px;
+  top:108px;
   left: 52px;
   position:absolute
 }
