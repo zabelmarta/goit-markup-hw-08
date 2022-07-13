@@ -17,6 +17,13 @@
     align-items: center;
     justify-content: center;
     fill: #AFB1B8;
+    
+    &:hover,
+    &:focus {
+    fill: #fff;
+    background-color: #2196f3;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 }
 
 .social__link--dark {
@@ -30,9 +37,3 @@
     vertical-align: middle;
 }
 
-.social__link:hover,
-.social__link:focus {
-    fill: #fff;
-    background-color: #2196f3;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
