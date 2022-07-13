@@ -26,9 +26,9 @@
     border-radius: 50%;
     background-color: transparent;
     cursor: pointer;
-}
 
-.close-btn__icon {
+
+    &__icon {
     width: 30px;
     height: 30px;
     position: absolute;
@@ -38,6 +38,7 @@
     border-radius: 50%;
     background-color: transparent;
     cursor: pointer;
+    }
 }
 
 .is-hidden {

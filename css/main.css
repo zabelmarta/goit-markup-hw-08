@@ -2,7 +2,6 @@
   width: 1200px;
   margin: 0px auto;
 }
-
 .container--dark {
   display: flex;
   justify-content: space-between;
@@ -11,20 +10,35 @@
 .section {
   padding-top: 94px;
 }
-
 .section--grey {
   background-color: #f5f4fa;
   margin-top: 94px;
 }
-
 .section--dark {
   background-color: #2f303a;
   padding-bottom: 60px;
   margin-top: 94px;
 }
-
 .section--blok {
   padding-top: 50px;
+}
+
+.logo {
+  font-family: "raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: #212121;
+  padding-top: 24px;
+  display: flex;
+}
+.logo--bg-dark {
+  color: #fff;
+  padding-top: 0px;
+  padding-bottom: 20px;
 }
 
 .button {
@@ -107,6 +121,16 @@
   vertical-align: middle;
 }
 
+.socials-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 0;
+}
+
 .backdrop {
   position: fixed;
   left: 0;
@@ -137,7 +161,6 @@
   background-color: transparent;
   cursor: pointer;
 }
-
 .close-btn__icon {
   width: 30px;
   height: 30px;
@@ -266,7 +289,6 @@
   display: flex;
   justify-content: space-between;
 }
-
 .head__menu {
   display: flex;
   justify-content: space-between;
@@ -374,7 +396,6 @@
   max-width: 1600px;
   min-width: 1600px;
 }
-
 .headline__title {
   font-weight: 900;
   font-size: 44px;
@@ -391,7 +412,6 @@
 .strength {
   display: inline-block;
 }
-
 .strength__box {
   background: #f5f4fa;
   border-radius: 4px;
@@ -402,12 +422,10 @@
   justify-content: center;
   margin-bottom: 30px;
 }
-
 .strength__icon {
   width: 70px;
   height: 70px;
 }
-
 .strength__title {
   font-weight: 700;
   font-size: 14px;
@@ -417,7 +435,6 @@
   margin: 0px auto;
   max-height: 185px;
 }
-
 .strength__element {
   font-size: 14px;
   line-height: 1.71;
@@ -434,12 +451,10 @@
 .task {
   position: relative;
 }
-
 .task__img {
   margin: 0px;
   display: block;
 }
-
 .task__label {
   position: absolute;
   bottom: 0;
@@ -447,7 +462,6 @@
   margin: 0;
   font-weight: 700;
   display: flex;
-  margin: 0px;
   width: 370px;
   height: 70px;
   font-size: 14px;
@@ -524,32 +538,20 @@
   cursor: pointer;
 }
 
-.socials-title {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #FFFFFF;
-  margin: 0;
-}
-
 .address {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: #fff;
   margin: 0px;
 }
-
 .address__mail {
   color: rgba(255, 255, 255, 0.6);
 }
 .address__mail:hover, .address__mail:focus {
-  color: rgba(33, 150, 243, 0.6);
+  color: #2196f3;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .address__phone {
   color: rgba(255, 255, 255, 0.6);
 }
@@ -575,7 +577,6 @@
   margin-top: 20px;
   gap: 12px;
 }
-
 .send__input {
   width: 358px;
   height: 50px;
@@ -585,8 +586,8 @@
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   background-color: #2F303A;
+  color: #ffffff;
 }
-
 .send__icon {
   width: 24px;
   height: 24px;

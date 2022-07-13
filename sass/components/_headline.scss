@@ -11,9 +11,8 @@
     padding-top: 0px;
     max-width: 1600px;
     min-width: 1600px;
-}
 
-.headline__title {
+&__title {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -24,4 +23,5 @@
     width: 696px;
     margin-top: 200px;
     margin-bottom: 30px;
+}
 }

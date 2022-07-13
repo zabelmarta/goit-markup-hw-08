@@ -1,20 +1,19 @@
 .task {
     position: relative;
-}
 
-.task__img {
+
+    &__img {
     margin: 0px;
     display: block;
-}
+    }
 
-.task__label {
+    &__label {
     position: absolute;
     bottom: 0;
     right: 0;
     margin: 0;
     font-weight: 700;
     display: flex;
-    margin: 0px;
     width: 370px;
     height: 70px;
     font-size: 14px;
@@ -26,4 +25,5 @@
     text-transform: uppercase;
     color: #ffffff;
     background-color: rgba(47, 48, 58, 0.8);
+    }
 }

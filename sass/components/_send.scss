@@ -15,9 +15,7 @@
     margin-top: 20px;
     gap: 12px;
 
-}
-
-.send__input {
+    &__input {
     width: 358px;
     height: 50px;
     left: 815px;
@@ -26,10 +24,11 @@
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
     background-color: #2F303A;
-}
+    color: #ffffff;
+    }
 
 
-.send__icon {
-    width: 24px;
+    &__icon{    width: 24px;
     height: 24px;
+    }
 }

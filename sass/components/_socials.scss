@@ -26,10 +26,12 @@
 }
 }
 
+
 .social__link--dark {
     background-color: rgba(255, 255, 255, 0.1);
     fill: #fff;
 }
+
 
 .social__icon {
     width: 20px;
@@ -37,3 +39,12 @@
     vertical-align: middle;
 }
 
+.socials-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0;
+}

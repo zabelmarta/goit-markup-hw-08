@@ -2,27 +2,27 @@
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
-    color: #ffffff;
+    color: getColor(colorLight);
     margin: 0px;
-}
-
-.address__mail {
-    color: rgba(255, 255, 255, 0.6);
 
 
-&:hover,
-&:focus {
-    color: rgba(33, 150, 243, 0.6);
+    &__mail {
+    color: getColor(fontLight);
+    }
+
+    &__mail:hover,
+    &__mail:focus {
+    color: getColor(blueColor);
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-}
+    }
 
-.address__phone {
-    color: rgba(255, 255, 255, 0.6);
 
-&:hover,
-&:focus {
-    color: rgba(33, 150, 243, 0.6);
+    &__phone {
+    color: getColor(fontLight);}
+
+    &__phone:hover,
+    &__phone:focus {
+    color: getColor(fontOpacity);
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+    }
 }

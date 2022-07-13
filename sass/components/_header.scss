@@ -6,15 +6,13 @@
 .head {
     display: flex;
     justify-content: space-between;
-}
 
-
-.head__menu {
+    &__menu {
     display: flex;
     justify-content: space-between;
     gap: 94px;
 }
-
+}
 .navigation {
     margin: 0;
     padding-top: 0;
