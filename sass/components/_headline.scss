@@ -1,0 +1,27 @@
+.headline {
+    display: flex;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),
+        url(../images/img-menu.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    height: 600px;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 0px;
+    max-width: 1600px;
+    min-width: 1600px;
+}
+
+.headline__title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    width: 696px;
+    margin-top: 200px;
+    margin-bottom: 30px;
+}

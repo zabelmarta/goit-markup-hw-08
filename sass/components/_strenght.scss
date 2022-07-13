@@ -1,11 +1,8 @@
-.strengths {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-between;
-    padding-left: 0;
+.strength {
+    display: inline-block;
 }
 
-.strength-box {
+.strength__box {
     background: #f5f4fa;
     border-radius: 4px;
     width: 270px;
@@ -16,16 +13,12 @@
     margin-bottom: 30px;
 }
 
-.strength-icon {
+.strength__icon {
     width: 70px;
     height: 70px;
 }
 
-.strength {
-    display: inline-block;
-}
-
-.tittle-strength {
+.strength__title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -35,7 +28,7 @@
     max-height: 185px;
 }
 
-.strength-element {
+.strength__element {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -45,6 +38,5 @@
     max-width: 293px;
     height: 75px;
     padding-top: 10px;
-
     margin: 0px;
 }

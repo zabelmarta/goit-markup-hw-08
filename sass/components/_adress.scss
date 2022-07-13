@@ -1,0 +1,20 @@
+.address {
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    margin: 0px;
+}
+
+.address__mail,
+.address__phone {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.address__mail:hover,
+.address__phone:hover,
+.address__mail:focus,
+.address__phone:focus {
+    color: rgba(33, 150, 243, 0.6);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
