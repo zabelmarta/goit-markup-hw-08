@@ -23,7 +23,7 @@
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: getColor(colorLight);
-    background-color: getColor(bgLightGrey);
+    color: var(--colorLight);
+    background-color: var(--bgLightGrey);
     }
 }

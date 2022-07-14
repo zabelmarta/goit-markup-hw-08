@@ -4,7 +4,7 @@
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: getColor(bgBackDrop);
+    background-color: var(--bgBackDrop);
 }
 .modal {
     position: absolute;
@@ -13,7 +13,7 @@
     transform: translate(-50%, -50%);
     width: 528px;
     min-height: 581px;
-    background-color: getColor(colorLight);
+    background-color: var(--colorLight);
 }
 
 .close-btn {
@@ -22,7 +22,7 @@
     position: absolute;
     top: 8px;
     right: 8px;
-    border: 1px solid getColor(borderCloseBtn);
+    border: 1px solid var(--borderCloseBtn);
     border-radius: 50%;
     background-color: transparent;
     cursor: pointer;
@@ -34,7 +34,7 @@
     position: absolute;
     top: 0px;
     right: 0px;
-    border: 1px solid getColor(borderCloseBtn);
+    border: 1px solid var(--borderCloseBtn);
     border-radius: 50%;
     background-color: transparent;
     cursor: pointer;

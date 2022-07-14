@@ -1,40 +1,32 @@
-$colors: (
-    'colorLight': #fff,
-    'colorGrey': #f5f4fa,
-    'colorDark': #2f303a,
-    'blueColor':  #2196f3,
-    'bgLightGrey': rgba(47, 48, 58, 0.8),
-    'bgLightOpacity': rgba(255, 255, 255, 0.1),
-    'bgGradientGrey': rgba(47, 48, 58, 0.4),
-    'bgProject':rgba(33, 150, 243, 0.9),
-    'bgBackDrop':  rgba(0, 0, 0, 0.2),
-    'borderLight': #ececec,
-    'borderGrey': #afb1b8,
-    'borderSend': rgba(255, 255, 255, 0.3),
-    'borderForm': rgba(33, 33, 33, 0.2),
-    'borderProject': #eee,
-    'borderCloseBtn': rgba(0,0,0,0.1),
-    'boxShadowFilter2': rgba(0, 0, 0, 0.08),
-    'fontDeepDark': #212121,
-    'fontGrey':  #757575,
-    'fontOpacity': rgba(33, 150, 243, 0.6),
-    'fontLight': rgba(255, 255, 255, 0.6),
-    'fillGrey': #AFB1B8,
-    'dropShadow': rgba(0, 0, 0, 0.15),
-    'boxShadow1':  rgba(0, 0, 0, 0.12),
-    'boxShadow2': rgba(0, 0, 0, 0.06),
-    'boxShadow3': rgba(0, 0, 0, 0.16),
-    'boxShadow4': rgba(0,0,0,0.14), 
-    'fontPaceHolder': rgba(117, 117, 117, 0.5),
-    'fontCode': #2a2a2a,
-
-);
-
-$fonts: (
-    'primary': roboto,
-    'secendary': raleway,
-);
-
-@function getColor($key) {
-  @return map-get($colors, $key);
+:root {
+    --colorLight: #fff;
+    --colorGrey: #f5f4fa;
+    --colorDark: #2f303a;
+    --blueColor:  #2196f3;
+    --bgLightGrey: rgba(47, 48, 58, 0.8);
+    --bgLightOpacity: rgba(255, 255, 255, 0.1);
+    --bgGradientGrey: rgba(47, 48, 58, 0.4);
+    --bgProject:rgba(33, 150, 243, 0.9);
+    --bgBackDrop:  rgba(0, 0, 0, 0.2);
+    --borderLight: #ececec;
+    --borderGrey: #afb1b8;
+    --borderSend: rgba(255, 255, 255, 0.3);
+    --borderForm: rgba(33, 33, 33, 0.2);
+    --borderProject: #eee;
+    --borderCloseBtn: rgba(0,0,0,0.1);
+    --boxShadowFilter2: rgba(0, 0, 0, 0.08);
+    --fontDeepDark: #212121;
+    --fontGrey:  #757575;
+    --fontOpacity: rgba(33, 150, 243, 0.6);
+    --fontLight: rgba(255, 255, 255, 0.6);
+    --fillGrey: #AFB1B8;
+    --dropShadow: rgba(0, 0, 0, 0.15);
+    --boxShadow1:  rgba(0, 0, 0, 0.12);
+    --boxShadow2: rgba(0, 0, 0, 0.06);
+    --boxShadow3: rgba(0, 0, 0, 0.16);
+    --boxShadow4: rgba(0,0,0,0.14); 
+    --fontPaceHolder: rgba(117, 117, 117, 0.5);
+    --fontCode: #2a2a2a;
+    --primary: roboto;
+    --secendary: raleway;
 }

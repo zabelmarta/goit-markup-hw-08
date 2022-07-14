@@ -1,7 +1,7 @@
 .headline {
     display: flex;
-    background-image: linear-gradient getColor(bgGradientGrey),
-        getColor(bgGradientGrey),
+    background-image: linear-gradient var(--bgGradientGrey),
+        var(--bgGradientGrey),
         url(../images/img-menu.jpg);
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -16,7 +16,7 @@
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    color: getColor(colorLight);
+    color: var(--colorLight);
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
