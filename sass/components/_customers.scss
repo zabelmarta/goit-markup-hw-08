@@ -6,9 +6,9 @@
 }
 
 .customer__logo {
-    border: 1px solid #afb1b8;
+    border: 1px solid getColor(fillGrey);
     border-radius: 4px;
-    fill: #afb1b8;
+    fill: getColor(fillGrey);
     display: flex;
     width: 170px;
     height: 92px;
@@ -17,8 +17,8 @@
 
     &:hover, 
     &:focus {
-    fill: #2196f3;
-    border-color: #2196f3;
+    fill: getColor(blueColor);
+    border-color:getColor(blueColor);
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     cursor: pointer;
 }

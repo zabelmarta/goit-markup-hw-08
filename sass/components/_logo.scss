@@ -6,12 +6,12 @@
     line-height: 1.19;
     letter-spacing: 0.03em;
     text-decoration: none;
-    color: #212121;
+    color: getColor(fontDeepDark);
     padding-top: 24px;
     display: flex;
 
     &--bg-dark {
-    color: #fff;
+    color: getColor(colorLight);
     padding-top: 0px;
     padding-bottom: 20px;
 }
