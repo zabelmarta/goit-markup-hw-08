@@ -23,7 +23,7 @@
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #ffffff;
-    background-color: rgba(47, 48, 58, 0.8);
+    color: getColor(colorLight);
+    background-color: getColor(bgLightGrey);
     }
 }

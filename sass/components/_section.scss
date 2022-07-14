@@ -3,13 +3,13 @@
 
 
     &--grey {
-    background-color: #f5f4fa;
+    background-color: getColor(colorGrey);
     margin-top: 94px;
     ;
     }
 
     &--dark {
-    background-color: #2f303a;
+    background-color: getColor(colorDark);
     padding-bottom: 60px;
     margin-top: 94px;
     }

@@ -1,9 +1,9 @@
 .worker {
     display: inline-block;
-    background: #ffffff;
+    background: getColor(colorLight);
     margin-bottom: 94px;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-        0px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 3px getColor(boxShadow1), 0px 1px 1px getColor(boxShadow4),
+        0px 2px 1px getColor(bgBackDrop);
     border-radius: 0px 0px 4px 4px;
 }
 
@@ -23,6 +23,6 @@
 }
 
 .worker__profession {
-    color: #757575;
+    color: getColor(fontGrey);
     padding-bottom: 16px;
 }
