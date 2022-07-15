@@ -1,19 +1,29 @@
 /*=== MOBILE ===*/
-@media screen and (min-width:480px) {
+@media screen and (min-width:480px), screen and( max-width: 767px) {
+
     .headline {
             display: flex;
             background-image: linear-gradient(rgba(47, 48, 58, 0.4),
                     rgba(47, 48, 58, 0.4)),
-                url("../images");
+                url("../images/mobile/img-menu-mobile.jpg");
             background-position: 50% 50%;
             background-repeat: no-repeat;
             height: 400px;
             align-items: center;
             padding-top: 0px;
-            max-width: 1600px;
+            max-width: 480px;
             margin: 0 auto;
-        }
-    
+    }
+
+    @media screen and(min-device-pixel-ratio: 2),
+        screen and (min-resolution: 192dpi),
+        screen and (min-resolution: 2dppx) {
+        .headline {
+            background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),
+            url("../images/mobile/img-menu-mobile@2x.jpg");
+         }
+    }
         .headline__box {
             display: flex;
             justify-content: center;
@@ -34,8 +44,58 @@
 
 }
 
+/*=== TABLET ===*/
 
-/*
+@media screen and (min-width: 768px){
+
+        .headline {
+            display: flex;
+            background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+                    rgba(47, 48, 58, 0.4)),
+                url("../images/tablet/img-menu-tablet.jpg");
+            background-position: 50% 50%;
+            background-repeat: no-repeat;
+            height: 400px;
+            align-items: center;
+            padding-top: 0px;
+            max-width: 768px;
+            margin: 0 auto;
+        }
+
+    @media screen and(min-device-pixel-ratio: 2),
+        screen and (min-resolution: 192dpi),
+        screen and (min-resolution: 2dppx) {
+            .headline {
+                background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+                        rgba(47, 48, 58, 0.4)),
+                    url("../images/tablet/img-menu-tablet@2x.jpg");
+            }
+        }
+
+        .headline__box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+    
+        .headline__title {
+            font-weight: 900;
+            font-size: 26px;
+            line-height: 1.615;
+            color: #fff;
+            text-align: center;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            width: 365px;
+        }
+    
+}
+
+/*=== COMPUTER ===*/
+
+@media screen and (min-width: 1200px) {
+
 .headline {
     display: flex;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4),
@@ -68,4 +128,4 @@
     width: 696px;
     margin-bottom: 30px;
 }
-*/
+}

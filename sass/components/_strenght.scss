@@ -1,4 +1,103 @@
+
+@media screen and (min-width:480px) and (max-width: 767px) {
+
 .strength__item {
+        display: inline-block;
+    }
+
+    .strength__box {
+        background: var(--colorGrey);
+        border-radius: 4px;
+        width: 450px;
+        height: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .strength__icon {
+        width: 70px;
+        height: 70px;
+    }
+
+    .strength__title {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        margin: 0px auto;
+        align-items: center;
+        justify-content: center;
+        max-height: 185px;
+        display: flex;
+    }
+
+    .strength__element {
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: var(--fontGrey);
+        display: inline-block;
+        min-width: 450px;
+        height: 75px;
+        padding-top: 10px;
+        margin: 0px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width: 1199px) {
+.strength__item {
+        display: inline-block;
+    }
+
+    .strength__box {
+        background: var(--colorGrey);
+        border-radius: 4px;
+        width: 354px;
+        height: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .strength__icon {
+        width: 70px;
+        height: 70px;
+    }
+
+    .strength__title {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        margin: 0px auto;
+        max-height: 185px;
+        
+    }
+
+    .strength__element {
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: var(--fontGrey);
+        display: inline-block;
+        width: 354px;
+        height: 75px;
+        padding-top: 10px;
+        margin: 0px;
+    }
+}
+
+
+/*=== COMPUTER ===*/
+
+@media screen and (min-width:1200px){
+.strength__item {
+    
     display: inline-block;
 }
 
@@ -39,4 +138,5 @@
     height: 75px;
     padding-top: 10px;
     margin: 0px;
+}
 }

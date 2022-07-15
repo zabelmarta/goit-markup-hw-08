@@ -1,3 +1,79 @@
+
+
+@media screen and (min-width:480px) and (max-width: 767px) {
+
+.filter {
+        list-style-type: none;
+            display: flex;
+            justify-content: flex-start;
+            margin: 0px;
+            flex-wrap: wrap;
+            padding-left: 0px
+    }
+
+    .filter__btn {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.625;
+        text-align: center;
+        letter-spacing: 0.03em;
+        background: var(--colorGrey);
+        border-radius: 4px;
+        border-color: var(--colorGrey);
+        cursor: pointer;
+        padding: 6px 22px;
+        margin: 8px;
+
+        &:hover,
+        &:focus {
+            color: var(--colorLight);
+            background-color: var(--blueColor);
+            box-shadow: 0px 3px 1px var(--borderCloseBtn), 0px 1px 2px var(--boxShadowFilter2),
+                0px 2px 2px var(--boxShadow1);
+            border-radius: 4px;
+            border-color: var(--blueColor);
+            transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+    }
+
+}
+
+@media screen and (min-width:768px) and (max-width: 1199px) {
+.filter {
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        margin: 0px;
+    }
+
+    .filter__btn {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.625;
+        text-align: center;
+        letter-spacing: 0.03em;
+        background: var(--colorGrey);
+        border-radius: 4px;
+        border-color: var(--colorGrey);
+        cursor: pointer;
+        padding: 6px 22px;
+        margin: 8px;
+
+        &:hover,
+        &:focus {
+            color: var(--colorLight);
+            background-color: var(--blueColor);
+            box-shadow: 0px 3px 1px var(--borderCloseBtn), 0px 1px 2px var(--boxShadowFilter2),
+                0px 2px 2px var(--boxShadow1);
+            border-radius: 4px;
+            border-color: var(--blueColor);
+            transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+    }
+}
+
+@media screen and (min-width:1200px) {
+
 .filter {
     list-style-type: none;
     display: flex;
@@ -28,4 +104,5 @@
         border-color: var(--blueColor);
         transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
+}
 }

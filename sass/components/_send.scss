@@ -1,3 +1,108 @@
+
+
+@media screen and (min-width:480px) and (max-width: 767px) {
+
+.send {
+
+    &__form{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    }
+
+        &__title {
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 1.143;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            color: var(--colorLight);
+            display: flex;
+            justify-content: center;
+        }
+
+        &__box {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 20px;
+            gap: 12px;
+            flex-direction: column;
+        }
+
+        &__input {
+            width: 450px;
+            height: 50px;
+            left: 815px;
+            top: 2787px;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            filter: drop-shadow(0px 4px 4px var(--dropShadow));
+            border-radius: 4px;
+            background-color: var(--colorDark);
+            color: var(--colorLight);
+        }
+
+        &__icon {
+            width: 24px;
+            height: 24px;
+        }
+
+}
+}
+
+@media screen and (min-width:768px) and (max-width: 1199px) {
+.send {
+
+        &__form {
+            display: flex;
+            flex-direction: column;
+            align-self: center;
+            justify-content: center;
+        }
+
+        &__title {
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 1.143;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            color: var(--colorLight);
+            display: flex;
+            justify-content: center;
+        }
+
+        &__box {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 20px;
+            gap: 12px;
+            flex-direction: column;
+        }
+
+        &__input {
+            width: 450px;
+            height: 50px;
+            left: 815px;
+            top: 2787px;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            filter: drop-shadow(0px 4px 4px var(--dropShadow));
+            border-radius: 4px;
+            background-color: var(--colorDark);
+            color: var(--colorLight);
+        }
+
+        &__icon {
+            width: 24px;
+            height: 24px;
+        }
+}
+}
+
+@media screen and (min-width:1200px) {
+
+
 .send {
     &__title {
         font-weight: 700;
@@ -33,4 +138,5 @@
         width: 24px;
         height: 24px;
     }
+}
 }

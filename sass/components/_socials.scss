@@ -8,6 +8,13 @@
     gap: 10px;
 }
 
+.social__footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+}
 
 .social__link {
     display: flex;
