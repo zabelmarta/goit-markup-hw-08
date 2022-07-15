@@ -6,6 +6,7 @@
     height: 100%;
     background-color: var(--bgBackDrop);
 }
+
 .modal {
     position: absolute;
     top: 50%;
@@ -14,30 +15,31 @@
     width: 528px;
     min-height: 581px;
     background-color: var(--colorLight);
-}
+    transition: opacity 250ms;
 
-.close-btn {
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    top: 8px;
-    right: 8px;
-    border: 1px solid var(--borderCloseBtn);
-    border-radius: 50%;
-    background-color: transparent;
-    cursor: pointer;
 
+    &__close-btn {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        top: 8px;
+        right: 8px;
+        border: 1px solid var(--borderCloseBtn);
+        border-radius: 50%;
+        background-color: transparent;
+        cursor: pointer;
+    }
 
     &__icon {
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    border: 1px solid var(--borderCloseBtn);
-    border-radius: 50%;
-    background-color: transparent;
-    cursor: pointer;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        border: 1px solid var(--borderCloseBtn);
+        border-radius: 50%;
+        background-color: transparent;
+        cursor: pointer;
     }
 }
 

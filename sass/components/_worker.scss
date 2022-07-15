@@ -1,4 +1,4 @@
-.worker {
+.team__worker {
     display: inline-block;
     background: var(--colorLight);
     margin-bottom: 94px;
@@ -7,8 +7,8 @@
     border-radius: 0px 0px 4px 4px;
 }
 
-.worker__name,
-.worker__profession {
+.team__name,
+.team__profession {
     font-size: 16px;
     line-height: 1.1875;
     text-align: center;
@@ -16,13 +16,13 @@
     margin: 0px;
 }
 
-.worker__name {
+.team__name {
     font-weight: 500;
     padding-top: 30px;
     padding-bottom: 10px;
 }
 
-.worker__profession {
+.team__profession {
     color: var(--fontGrey);
     padding-bottom: 16px;
 }

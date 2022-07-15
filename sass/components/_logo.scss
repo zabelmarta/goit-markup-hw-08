@@ -1,19 +1,20 @@
-/*media*/
-.logo{
-        font-family: var(--secondary);
-            font-style: normal;
-            font-weight: 700;
-            font-size: 24px;
-            line-height: 1.17;
-            letter-spacing: 0.03em;
-            text-decoration: none;
-            color: var(--fontDeepDark);
-            padding: 16px 0;
+/*=== MOBILE ===*/
+
+.logo {
+    font-family: var(--secondary);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.167;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: var(--fontDeepDark);
+    padding: 16px 0;
+    display: flex;
 }
 
 /*
 .logo {
-    font-family: var(--secondary);
+    font-family: "raleway";
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
@@ -25,9 +26,9 @@
     display: flex;
 
     &--bg-dark {
-    color: var(--colorLight);
-    padding-top: 0px;
-    padding-bottom: 20px;
-}
+        color: var(--colorLight);
+        padding-top: 0px;
+        padding-bottom: 20px;
+    }
 }
 */

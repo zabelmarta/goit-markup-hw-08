@@ -1,8 +1,8 @@
-.strength {
+.strength__item {
     display: inline-block;
+}
 
-
-    &__box {
+.strength__box {
     background: var(--colorGrey);
     border-radius: 4px;
     width: 270px;
@@ -13,12 +13,12 @@
     margin-bottom: 30px;
 }
 
-    &__icon {
+.strength__icon {
     width: 70px;
     height: 70px;
 }
 
-    &__title {
+.strength__title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -28,7 +28,7 @@
     max-height: 185px;
 }
 
-    &__element {
+.strength__element {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -39,5 +39,4 @@
     height: 75px;
     padding-top: 10px;
     margin: 0px;
-}
 }

@@ -1,4 +1,4 @@
-.socials {
+.social {
     list-style: none;
     display: flex;
     align-items: center;
@@ -17,13 +17,13 @@
     align-items: center;
     justify-content: center;
     fill: var(--borderGrey);
-    
+
     &:hover,
     &:focus {
-    fill: var(--colorLight);   
-    background-color: var(--blueColor);
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+        fill: var(--colorLight);
+        background-color: var(--blueColor);
+        transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
 }
 
 
@@ -39,7 +39,7 @@
     vertical-align: middle;
 }
 
-.socials-title {
+.social-title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;

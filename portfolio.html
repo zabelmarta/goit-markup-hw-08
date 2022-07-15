@@ -1,305 +1,248 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Studio</title>
-    <link rel="stylesheet" href="css/modern-normalize.css" />
-    <link rel="stylesheet" href="css/main.min.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-         <header class="header">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Studio</title>
+  <link rel="stylesheet" href="css/modern-normalize.css" />
+  <link rel="stylesheet" href="css/main.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__box">
+        <div class="header__menu">
+          <a href="/" class="logo"><span style="color: #2196f3">Web</span>Studio</a>
+
+          <nav class="header__navigation">
+            <ul class="header__menu">
+              <li>
+                <a href="index.html" class="header__link">Agencja</a>
+              </li>
+              <li>
+                <a href="portfolio.html" class="header__link here">Portfolio</a>
+              </li>
+              <li><a href="" class="header__link">Kontakt</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header__contacts">
+          <div class="header__mail">
+            <svg class="header__mail-icon">
+              <use href="./images/icons.svg#icon-mail"></use>
+            </svg>
+            <a class="header__contact" href="mailto:info@devstudio.com">info@devstudio.com
+            </a>
+          </div>
+          <div class="header__phone">
+            <svg class="header__phone-icon">
+              <use href="./images/icons.svg#icon-phone"></use>
+            </svg>
+            <a class="header__contact" href="tel:+48111111111">+48 111 111 111</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <!-- MENU -->
+
+    <section class="section">
       <div class="container">
-        <div class="head">
-          <div class="head__menu">
-            <a href="/" class="logo"
-              ><span style="color: #2196f3">Web</span>Studio</a
-            >
-
-            <nav class="navigation">
-              <ul class="menu">
-                <li><a href="index.html" class="menu__link here">Agencja</a></li>
-                <li>
-                  <a href="portfolio.html" class="menu__link">Portfolio</a>
-                </li>
-                <li><a href="" class="menu__link">Kontakt</a></li>
-              </ul>
-            </nav>
-          </div>
-          <div class="contact">
-            <div class="contact__mail">
-              <svg class="contact__mail-icon">
-                <use href="./images/icons.svg#icon-mail"></use>
-              </svg>
-              <a class="contact__link" href="mailto:info@devstudio.com"
-                >info@devstudio.com
-              </a>
-            </div>
-            <div class="contact__phone">
-              <svg class="contact__phone-icon">
-                <use href="./images/icons.svg#icon-phone"></use>
-              </svg>
-              <a class="contact__link" href="tel:+48111111111">+48 111 111 111</a>
-            </div>
-          </div>
-        </div>
+        <ul class="filter">
+          <li class="filter__item">
+            <button type="button" class="filter__btn">Wszystkie</button>
+          </li>
+          <li class="filter__item">
+            <button type="button" class="filter__btn">Strony</button>
+          </li>
+          <li class="filter__item">
+            <button type="button" class="filter__btn">Aplikacje</button>
+          </li>
+          <li class="filter__item">
+            <button type="button" class="filter__btn">Dizajn</button>
+          </li>
+          <li class="filter__item">
+            <button type="button" class="filter__btn">Marketing</button>
+          </li>
+        </ul>
       </div>
-    </header>
-    <main>
-      <!-- MENU -->
+    </section>
 
-      <section class="section">
-        <div class="container">
-          <ul class="filters">
-            <li class="filter">
-              <button type="button" class="filter__btn">Wszystkie</button>
-            </li>
-            <li class="filter">
-              <button type="button" class="filter__btn">Strony</button>
-            </li>
-            <li class="filter">
-              <button type="button" class="filter__btn">Aplikacje</button>
-            </li>
-            <li class="filter">
-              <button type="button" class="filter__btn">Dizajn</button>
-            </li>
-            <li class="filter">
-              <button type="button" class="filter__btn">Marketing</button>
-            </li>
-          </ul>
-        </div>
-      </section>
+    <!-- PROJECTS -->
 
-      <!-- PROJECTS -->
-
-      <section class="section section--blok">
-        <div class="container">
-          <ul class="projects">
-            <li class="project">
-              <img
-                src="./images/project1.jpg"
-                alt="technocrack"
-                width="370"
-                height="294"
-              />
-              <div class="project__overlay">
-                <p>
-                  Technocrack jest popularną platformą wykorzystywaną do
-                  rozpowszechniania koronawirusa. Firmy wykorzystują tę
-                  platformę do celów szpiegowskich i ataków na niezabezpieczone
-                  serwery konkurencji
-                </p>
-              </div>
-              <div class="project__title">Technocrack</div>
-              <a href="#" class="project__link">Strona internetowa</a>
-            </li>
-            <li class="project">
-              <img
-                src="./images/project2.jpg"
-                alt="Grafika New Orlean vs Golden Star"
-                width="370"
-                height="294"
-              />
-              <div class="project__overlay">
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Voluptatum, hic! Nam id dicta esse sit quo non sequi nostrum.
-                </p>
-              </div>
-              <div class="project__title">Grafika New Orlean vs Golden Star</div>
-              <a href="#" class="project__link">Dizajn</a>
-            </li>
-            <li class="project">
-              <img
-                src="./images/project3.jpg"
-                alt="Restauracja Seafood"
-                width="370"
-                height="294"
-              />
-              <div class="project__overlay">
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Voluptatum, hic! Nam id dicta esse sit quo non sequi nostrum.
-                </p>
-              </div>
-              <div class="project__title">Restauracja Seafood</div>
-              <a href="#" class="project__link">Aplikacja</a>
-            </li>
-            <li class="project">
-              <img
-                src="./images/project4.jpg"
-                alt="Projekt Prime"
-                width="370"
-                height="294"
-              />
-              <div class="project__overlay">
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Voluptatum, hic! Nam id dicta esse sit quo non sequi nostrum.
-                </p>
-              </div>
-              <div class="project__title">Projekt Prime</div>
-              <a href="#" class="project__link">Marketing</a>
-            </li>
-            <li class="project">
-              <img
-                src="./images/project5.jpg"
-                alt="Projekt Boxes"
-                width="370"
-                height="294"
-              />
-              <div class="project__overlay">
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Voluptatum, hic! Nam id dicta esse sit quo non sequi nostrum.
-                </p>
-              </div>
-              <div class="project__title">Projekt Boxes</div>
-              <a href="#" class="project__link">Aplikacja</a>
-            </li>
-            <li class="project">
-              <img
-                src="./images/project6.jpg"
-                alt="Inspiration has no Borders"
-                width="370"
-                height="294"
-              />
-              <div class="project__overlay">
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Voluptatum, hic! Nam id dicta esse sit quo non sequi nostrum.
-                </p>
-              </div>
-              <div class="project__title">Inspiration has no Borders</div>
-              <a href="#" class="project__link">Strona internetowa</a>
-            </li>
-            <li class="project">
-              <img
-                src="./images/project7.jpg"
-                alt="Magazyn Limited Edition"
-                width="370"
-                height="294"
-              />
-              <div class="project__overlay">
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Voluptatum, hic! Nam id dicta esse sit quo non sequi nostrum.
-                </p>
-              </div>
-              <div class="project__title">Magazyn Limited Edition</div>
-              <a href="#" class="project__link">Dizajn</a>
-            </li>
-            <li class="project">
-              <img
-                src="./images/project8.jpg"
-                alt="Projekt LAB"
-                width="370"
-                height="294"
-              />
-              <div class="project__overlay">
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Voluptatum, hic! Nam id dicta esse sit quo non sequi nostrum.
-                </p>
-              </div>
-              <div class="project__title">Projekt LAB</div>
-              <a href="#" class="project__link">Marketing</a>
-            </li>
-            <li class="project">
-              <img
-                src="./images/project9.jpg"
-                alt="Growing Business"
-                width="370"
-                height="294"
-              />
-              <div class="project__overlay">
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Voluptatum, hic! Nam id dicta esse sit quo non sequi nostrum.
-                </p>
-              </div>
-              <div class="project__title">Growing Business</div>
-              <a href="#" class="project__link">Aplikacja</a>
-            </li>
-          </ul>
-        </div>
-      </section>
-    </main>
-
-    <!--    FOOTER    -->
-
-    <footer class="section section--dark">
-      <div class="container container--dark">
-        <div class="footer">
-          <a href="/" class="logo logo--bg-dark"
-          ><span style="color: #2196f3">Web</span>Studio</a>
-          <address class="address">
-            <p class="">m. Warszawa, Aleje Jerozolimskie 21</p>
-            <p class="">
-              <a href="mailto:info@devstudio.com" class="address__mail"
-              >info@devstudio.com</a>
-            </p>
-            <p class="">
-              <a href="tel:+48111111111" class="address__phone">+48 111 111 111</a>
-            </p>
-          </address>
-        </div>
-        <div>
-          <h3 class="socials-title">DOŁĄCZ DO NAS</h3>
-          <ul class="socials">
-            <li class="social">
-              <a class="social__link social__link--dark" href="#">
-                <svg class="social__icon">
-                    <use href="./images/icons.svg#icon-instagram"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="social">
-              <a class="social__link social__link--dark" href="#">
-                <svg class="social__icon">
-                    <use href="./images/icons.svg#icon-twitter"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="social">
-              <a class="social__link social__link--dark" href="#">
-                <svg class="social__icon">
-                  <use href="./images/icons.svg#icon-facebook"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="social">
-              
-              <a class="social__link social__link--dark" href="#">
-                <svg class="social__icon">
-                  <use href="./images/icons.svg#icon-linkedin"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
+    <section class="section section--blok">
+      <div class="container">
+        <ul class="project">
+          <li class="project__item">
+            <img src="./images/project1.jpg" alt="technocrack" width="370" height="294" />
+            <div class="project__overlay">
+              <p>
+                Technocrack jest popularną platformą wykorzystywaną do
+                rozpowszechniania koronawirusa. Firmy wykorzystują tę
+                platformę do celów szpiegowskich i ataków na niezabezpieczone
+                serwery konkurencji
+              </p>
+            </div>
+            <div class="project__title">Technocrack</div>
+            <a href="#" class="project__link">Strona internetowa</a>
+          </li>
+          <li class="project__item">
+            <img src="./images/project2.jpg" alt="Grafika New Orlean vs Golden Star" width="370" height="294" />
+            <div class="project__overlay">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatum, hic! Nam id dicta esse sit quo non sequi nostrum.
+              </p>
+            </div>
+            <div class="project__title">
+              Grafika New Orlean vs Golden Star
+            </div>
+            <a href="#" class="project__link">Dizajn</a>
+          </li>
+          <li class="project__item">
+            <img src="./images/project3.jpg" alt="Restauracja Seafood" width="370" height="294" />
+            <div class="project__overlay">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatum, hic! Nam id dicta esse sit quo non sequi nostrum.
+              </p>
+            </div>
+            <div class="project__title">Restauracja Seafood</div>
+            <a href="#" class="project__link">Aplikacja</a>
+          </li>
+          <li class="project__item">
+            <img src="./images/project4.jpg" alt="Projekt Prime" width="370" height="294" />
+            <div class="project__overlay">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatum, hic! Nam id dicta esse sit quo non sequi nostrum.
+              </p>
+            </div>
+            <div class="project__title">Projekt Prime</div>
+            <a href="#" class="project__link">Marketing</a>
+          </li>
+          <li class="project__item">
+            <img src="./images/project5.jpg" alt="Projekt Boxes" width="370" height="294" />
+            <div class="project__overlay">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatum, hic! Nam id dicta esse sit quo non sequi nostrum.
+              </p>
+            </div>
+            <div class="project__title">Projekt Boxes</div>
+            <a href="#" class="project__link">Aplikacja</a>
+          </li>
+          <li class="project__item">
+            <img src="./images/project6.jpg" alt="Inspiration has no Borders" width="370" height="294" />
+            <div class="project__overlay">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatum, hic! Nam id dicta esse sit quo non sequi nostrum.
+              </p>
+            </div>
+            <div class="project__title">Inspiration has no Borders</div>
+            <a href="#" class="project__link">Strona internetowa</a>
+          </li>
+          <li class="project__item">
+            <img src="./images/project7.jpg" alt="Magazyn Limited Edition" width="370" height="294" />
+            <div class="project__overlay">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatum, hic! Nam id dicta esse sit quo non sequi nostrum.
+              </p>
+            </div>
+            <div class="project__title">Magazyn Limited Edition</div>
+            <a href="#" class="project__link">Dizajn</a>
+          </li>
+          <li class="project__item">
+            <img src="./images/project8.jpg" alt="Projekt LAB" width="370" height="294" />
+            <div class="project__overlay">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatum, hic! Nam id dicta esse sit quo non sequi nostrum.
+              </p>
+            </div>
+            <div class="project__title">Projekt LAB</div>
+            <a href="#" class="project__link">Marketing</a>
+          </li>
+          <li class="project__item">
+            <img src="./images/project9.jpg" alt="Growing Business" width="370" height="294" />
+            <div class="project__overlay">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatum, hic! Nam id dicta esse sit quo non sequi nostrum.
+              </p>
+            </div>
+            <div class="project__title">Growing Business</div>
+            <a href="#" class="project__link">Aplikacja</a>
+          </li>
+        </ul>
       </div>
-     
+    </section>
+  </main>
 
+  <!--    FOOTER    -->
+
+  <footer class="section section--dark">
+    <div class="container container--dark">
+      <div class="footer">
+        <a href="/" class="logo logo--bg-dark"><span style="color: #2196f3">Web</span>Studio</a>
+        <address class="footer__address">
+          <p class="">m. Warszawa, Aleje Jerozolimskie 21</p>
+          <p class="">
+            <a href="mailto:info@devstudio.com" class="footer__mail">info@devstudio.com</a>
+          </p>
+          <p class="">
+            <a href="tel:+48111111111" class="footer__phone">+48 111 111 111</a>
+          </p>
+        </address>
+      </div>
       <div>
+        <h3 class="social-title">DOŁĄCZ DO NAS</h3>
+        <ul class="social">
+          <li class="social__item">
+            <a class="social__link social__link--dark" href="#">
+              <svg class="social__icon">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link social__link--dark" href="#">
+              <svg class="social__icon">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link social__link--dark" href="#">
+              <svg class="social__icon">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social__item">
+
+            <a class="social__link social__link--dark" href="#">
+              <svg class="social__icon">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+
+      <div class="send">
         <form>
-          <label for="user_email" class="send-tittle"
-            >Zapisz się do newslettera</label
-          >
-          <div class="send">
-            <input
-              class="send__input"
-              type="email"
-              name="email"
-              id="user_email"
-              placeholder="E-mail"
-            />
+          <label for="user_email" class="send__title">Zapisz się do newslettera</label>
+          <div class="send__box">
+            <input class="send__input" type="email" name="email" id="user_email" placeholder="E-mail" />
             <button type="submit" class="button">
               Zapisz się
               <svg class="send__icon">
@@ -309,7 +252,8 @@
           </div>
         </form>
       </div>
-      </div>
-    </footer>
-  </body>
+    </div>
+  </footer>
+</body>
+
 </html>
