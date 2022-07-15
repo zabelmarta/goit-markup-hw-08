@@ -25,13 +25,13 @@
 
 @media screen and (min-width:1200px) {
 .container {
-    width: 1200px;
-    margin: 0px auto;
+        width: 1200px;
+        margin: 0px auto;
 
 
-    &--dark {
-    display: flex;
-    justify-content: space-between;
+        &--dark {
+            display: flex;
+            justify-content: space-between;
+        }
     }
-}
 }
