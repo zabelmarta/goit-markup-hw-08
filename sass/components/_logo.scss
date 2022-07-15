@@ -1,5 +1,19 @@
+/*media*/
+.logo{
+        font-family: var(--secondary);
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 1.17;
+            letter-spacing: 0.03em;
+            text-decoration: none;
+            color: var(--fontDeepDark);
+            padding: 16px 0;
+}
+
+/*
 .logo {
-    font-family: "raleway";
+    font-family: var(--secondary);
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
@@ -16,3 +30,4 @@
     padding-bottom: 20px;
 }
 }
+*/

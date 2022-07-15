@@ -1,3 +1,31 @@
+/* == MOBILE == */
+@media screen and (min-width: 460px) and (max-width: 768px)
+{
+.header {
+    border-bottom: 1px solid var(--borderLight);
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+
+    &__menu {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.navigation {
+display: none;
+}
+
+.contact {
+    display: none;
+}
+}
+
+
+/*
 .header {
     padding-bottom: 32px;
     border-bottom: 1px solid var(--borderLight);
@@ -108,3 +136,4 @@
     width: 10px;
     height: 16px;
 }
+*/
