@@ -1183,6 +1183,7 @@
   }
   .footer__mail {
     color: var(--fontLight);
+    text-decoration: none;
   }
   .footer__mail:hover, .footer__mail:focus {
     color: var(--blueColor);
@@ -1190,6 +1191,7 @@
   }
   .footer__phone {
     color: var(--fontLight);
+    text-decoration: none;
   }
   .footer__phone:hover, .footer__phone:focus {
     color: var(--fontOpacity);
@@ -1220,6 +1222,7 @@
   }
   .footer__mail {
     color: var(--fontLight);
+    text-decoration: none;
   }
   .footer__mail:hover, .footer__mail:focus {
     color: var(--blueColor);
@@ -1227,6 +1230,7 @@
   }
   .footer__phone {
     color: var(--fontLight);
+    text-decoration: none;
   }
   .footer__phone:hover, .footer__phone:focus {
     color: var(--fontOpacity);
@@ -1243,6 +1247,7 @@
   }
   .footer__mail {
     color: var(--fontLight);
+    text-decoration: none;
   }
   .footer__mail:hover, .footer__mail:focus {
     color: var(--blueColor);
@@ -1250,6 +1255,7 @@
   }
   .footer__phone {
     color: var(--fontLight);
+    text-decoration: none;
   }
   .footer__phone:hover, .footer__phone:focus {
     color: var(--fontOpacity);
