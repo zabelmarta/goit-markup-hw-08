@@ -46,6 +46,59 @@
             <a class="header__contact" href="tel:+48111111111">+48 111 111 111</a>
           </div>
         </div>
+        <div class="mobile-menu">
+          <button class="mobile-menu__button" type="button" data-mobile-open>
+            <svg class="mobile-menu__icon">
+              <use href="./images/mobile/mobile-menu.svg#icon-mobile-menu"></use>
+
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!--    MOBILE MENU    -->
+    <div class="mobile is-hidden" data-mobile>
+      <div class="modal">
+        <button class="mobile__icon" type="button" data-mobile-close>
+          <svg class="mobile__icon">
+            <use href="./images/mobile/mobile-svg#icon-mobile-icon"></use>
+          </svg>
+        </button>
+        <div class="mobile__menu">
+          <nav class="mobile__navigation">
+            <ul class="mobile__list">
+              <li>
+                <a href="index.html" class="mobile__link ">Agencja</a>
+              </li>
+              <li>
+                <a href="portfolio.html" class="mobile__link">Portfolio</a>
+              </li>
+              <li><a href="" class="mobile__link">Kontakt</a></li>
+            </ul>
+          </nav>
+          <div class="mobile__mail">
+            <a class="header__contact" href="mailto:info@devstudio.com">info@devstudio.com
+            </a>
+          </div>
+          <div class="mobile__phone">
+            <a class="mobile__contact" href="tel:+48111111111">+48 111 111 111</a>
+          </div>
+          <ul class="mobile__social">
+            <li class="mobile__insta">
+              <a href="">Instagram</a>
+            </li>
+            <li class="mobile__twitter">
+              <a href="">Twitter</a>
+            </li>
+            <li class="mobile__fb">
+              <a href="">Facebook</a>
+            </li>
+            <li class="linkedin">
+              <a href="">LinkedIn</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </header>
@@ -122,7 +175,7 @@
         </ul>
       </div>
     </section>
-  
+
     <!-- CZYM SIĘ ZAJMUJEMY -->
 
     <section class="section">
@@ -131,29 +184,25 @@
 
         <ul class="section__list task__list">
           <li class="task__item">
-            <img src="./images/img0.jpg" 
-            srcset=""
-            alt="Projektowanie stron" width="370" height="294" class="task__img" />
+            <img src="./images/img0.jpg" srcset="" alt="Projektowanie stron" width="370" height="294"
+              class="task__img" />
             <p class="task__label">APLIKACJE KOMPUTEROWE</p>
           </li>
           <li class="task__item">
-            <img src="./images/img1.jpg" 
-            srcset=""
-            alt="Projektowanie aplikacji mobilnych" width="370" height="294"
+            <img src="./images/img1.jpg" srcset="" alt="Projektowanie aplikacji mobilnych" width="370" height="294"
               class="task__img" />
             <p class="task__label">APLIKACJE MOBILNE</p>
           </li>
           <li class="task__item">
-            <img src="./images/img2.jpg"
-            srcset=""
-            alt="Tworzenie designu stron" width="370" height="294" class="task__img" />
+            <img src="./images/img2.jpg" srcset="" alt="Tworzenie designu stron" width="370" height="294"
+              class="task__img" />
             <p class="task__label">ROZWIĄZANIA GRAFICZNE</p>
           </li>
         </ul>
 
       </div>
     </section>
-  
+
     <!-- TEAM-->
 
     <section class="section section--grey">
@@ -162,9 +211,8 @@
         <ul class="section__list team">
           <li class="team__list">
             <div class="team__worker">
-              <img src="./images/mobile/img.jpg"
-              srcset="./images/mobile/img@2x.jpg 2x"
-              alt="John Doe" class="team__img" />
+              <img src="./images/mobile/img.jpg" srcset="./images/mobile/img@2x.jpg 2x" alt="John Doe"
+                class="team__img" />
               <h3 class="team__name">John Doe</h3>
               <p class="team__profession">Product Designer</p>
               <ul class="social">
@@ -201,10 +249,8 @@
           </li>
           <li class="team__list">
             <div class="team__worker">
-              <img src="./images/mobile/img(1).jpg"
-              srcset="./images/mobile/img(1)@2x.jpg 2x"
-              alt="John Doe"
-               class="team__img" />
+              <img src="./images/mobile/img(1).jpg" srcset="./images/mobile/img(1)@2x.jpg 2x" alt="John Doe"
+                class="team__img" />
               <h3 class="team__name">John Doe</h3>
               <p class="team__profession">Frontend Developer</p>
               <ul class="social">
@@ -241,9 +287,8 @@
           </li>
           <li class="team__list">
             <div class="team__worker">
-              <img src="./images/mobile/img(2).jpg"
-              srcset="./images/mobile/img(2)@2x.jpg 2x"
-              alt="John Doe"  class="team__img" />
+              <img src="./images/mobile/img(2).jpg" srcset="./images/mobile/img(2)@2x.jpg 2x" alt="John Doe"
+                class="team__img" />
               <h3 class="team__name">John Doe</h3>
               <p class="team__profession">Marketing</p>
               <ul class="social">
@@ -280,9 +325,8 @@
           </li>
           <li class="team__list">
             <div class="team__worker">
-              <img src="./images/mobile/img(3).jpg"
-              srcset="./images/mobile/img(3)@2x.jpg 2x"
-              alt="John Doe"  class="team__img" />
+              <img src="./images/mobile/img(3).jpg" srcset="./images/mobile/img(3)@2x.jpg 2x" alt="John Doe"
+                class="team__img" />
               <h3 class="team__name">John Doe</h3>
               <p class="team__profession">UI Designer</p>
               <ul class="social">
@@ -489,6 +533,7 @@
     </div>
   </div>
   <script src="./js/modal.js"></script>
+  <script src="./js/mobile-menu.js"></script>
 </body>
 
 </html>
