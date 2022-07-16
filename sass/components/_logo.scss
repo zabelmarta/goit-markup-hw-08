@@ -1,24 +1,32 @@
-/*=== MOBILE ===*/
-
-@media screen and (min-width: 480px) {
-    
 .logo {
     font-family: var(--secondary);
     font-weight: 700;
-    font-size: 24px;
-    line-height: 1.167;
     letter-spacing: 0.03em;
     text-decoration: none;
     color: var(--fontDeepDark);
     padding: 16px 0;
     display: flex;
 
+    &--bg-dark {
+        color: var(--colorLight);
+        padding-top: 0px;
+        padding-bottom: 20px;
+        display: flex;
+    }
+}
+
+
+/*=== MOBILE ===*/
+
+@media screen and (min-width: 480px) {
+    
+.logo {
+
+    font-size: 24px;
+    line-height: 1.167;
+
         &--bg-dark {
-                color: var(--colorLight);
-                padding-top: 0px;
-                padding-bottom: 20px;
-                    display: flex;
-                        justify-content: center;
+            justify-content: center;
                     }
             }
 }
@@ -29,21 +37,7 @@
 @media screen and (min-width: 768px) {
 
     .logo {
-        font-family: var(--secondary);
-        font-weight: 700;
-        font-size: 24px;
-        line-height: 1.167;
-        letter-spacing: 0.03em;
-        text-decoration: none;
-        color: var(--fontDeepDark);
-        padding: 26px 0;
-        display: flex;
-
-            &--bg-dark {
-                    color: var(--colorLight);
-                    padding-top: 0px;
-                    padding-bottom: 20px;
-                }
+    align-items: center;
     }
 }
 
@@ -52,21 +46,8 @@
 @media screen and (min-width: 1200px){
 
 .logo {
-    font-family: "raleway";
-    font-style: normal;
-    font-weight: 700;
+
     font-size: 26px;
     line-height: 1.19;
-    letter-spacing: 0.03em;
-    text-decoration: none;
-    color: var(--fontDeepDark);
-    padding-top: 24px;
-    display: flex;
-
-    &--bg-dark {
-        color: var(--colorLight);
-        padding-top: 0px;
-        padding-bottom: 20px;
-    }
 }
 }
