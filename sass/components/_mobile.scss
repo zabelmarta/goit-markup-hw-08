@@ -17,7 +17,7 @@
     min-width: 450px;
     min-height: 796px;
     background-color: var(--colorLight);
-    transition: opacity 250ms;
+    transition: opacity 800ms;
     z-index: 3;
 }
 
@@ -34,7 +34,8 @@
 
     &:hover,
     &:focus {
-    fill: var(--blueColor)
+    fill: var(--blueColor);
+    cursor: pointer;
 }
 }
 

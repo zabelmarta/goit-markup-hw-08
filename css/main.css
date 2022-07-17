@@ -674,7 +674,7 @@
   min-width: 450px;
   min-height: 796px;
   background-color: var(--colorLight);
-  transition: opacity 250ms;
+  transition: opacity 800ms;
   z-index: 3;
 }
 
@@ -691,6 +691,7 @@
 }
 .mobile__btn:hover, .mobile__btn:focus {
   fill: var(--blueColor);
+  cursor: pointer;
 }
 
 .mobile__icon {
