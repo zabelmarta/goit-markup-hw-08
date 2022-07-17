@@ -169,6 +169,7 @@
 /*=== COMPUTER ===*/
 @media screen and (min-width: 1200px) {
   .logo {
+    align-items: flex-start;
     font-size: 26px;
     line-height: 1.19;
   }
@@ -668,7 +669,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 450px;
+  min-width: 450px;
   min-height: 796px;
   background-color: var(--colorLight);
   transition: opacity 250ms;
@@ -1094,7 +1095,6 @@
   display: block;
   flex-direction: column;
   align-items: baseline;
-  justify-content: center;
 }
 .footer__address {
   font-size: 14px;
@@ -1102,8 +1102,6 @@
   letter-spacing: 0.03em;
   color: var(--colorLight);
   margin: 0px;
-  align-items: center;
-  justify-content: center;
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -1128,6 +1126,20 @@
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+@media screen and (min-width: 480px) {
+  .footer,
+.footer__address {
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer,
+.footer__address {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
 .send__form {
   display: flex;
   flex-direction: column;
