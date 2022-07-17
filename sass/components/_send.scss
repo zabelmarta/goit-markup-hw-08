@@ -2,9 +2,8 @@
 
     &__form {
         display: flex;
-        flex-direction: column;
         align-self: center;
-        justify-content: center;
+        flex-direction: column;
     }
 
     &__title {
@@ -15,7 +14,7 @@
         text-transform: uppercase;
         color: var(--colorLight);
         display: flex;
-        justify-content: center;
+
     }
 
     &__box {
@@ -24,7 +23,7 @@
         justify-content: space-between;
         margin-top: 20px;
         gap: 12px;
-        flex-direction: column;
+
     }
 
     &__input {
@@ -48,18 +47,40 @@
 @media screen and (min-width:480px) and (max-width: 767px) {
 
 .send {
-
-        &__input {
+    
+    &__input {
             width: 450px;
+    }
+    &__box {
+            flex-direction: column;
 }
+    &__form {
+        justify-content: center;
+    }
+        
+    &__title {
+        justify-content: center;
+    }
 }
 }
 
 @media screen and (min-width:768px) and (max-width: 1199px) {
 .send {
 
-        &__input {
-            width: 450px;
+    &__input {
+        width: 450px;
+    }
+
+    &__box {
+        flex-direction: column;
+    }
+
+    &__form {
+        justify-content: center;
+    }
+
+&__title {
+    justify-content: center;
 }
 }
 }
@@ -72,5 +93,10 @@
     &__input {
         width: 358px;
     }
+
+    &__form {
+        justify-content: flex-start;
+    }
+
 }
 }
