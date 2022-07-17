@@ -3,13 +3,13 @@
     display: flex;
     margin-bottom: 94px;
     padding-left: 0px;
-
 }
  .project__item {
      border: 1px solid var(--borderProject);
      padding-bottom: 20px;
      position: relative;
      overflow: hidden;
+    z-index: 1;
  }
 
  .project__item:hover,
@@ -35,7 +35,7 @@
     letter-spacing: 0.03em;
     transform: translatey(140%);
     transition: transform 250ms ease;
-
+    
 
     p {
         color: var(--colorLight);
