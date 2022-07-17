@@ -34,7 +34,7 @@
 
 /*=== TABLET ===*/
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
 
     .logo {
     align-items: center;
@@ -46,8 +46,12 @@
 @media screen and (min-width: 1200px){
 
 .logo {
-    align-items: flex-start;
+    
     font-size: 26px;
     line-height: 1.19;
+    
+    &--bg-dark {
+        justify-content: flex-start;
+     }
 }
 }
