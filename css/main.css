@@ -643,7 +643,7 @@
     width: 40px;
     height: 40px;
     background-color: var(--colorLight);
-    border-color: var(--colorLight);
+    border: none;
     box-shadow: none;
   }
   .mobile-menu__button:hover, .mobile-menu__button:focus {
@@ -685,9 +685,7 @@
   width: 40px;
   height: 40px;
   background-color: var(--colorLight);
-  border-color: var(--colorLight);
-  box-shadow: none;
-  outline: none;
+  border: none;
 }
 .mobile__btn:hover, .mobile__btn:focus {
   fill: var(--blueColor);
@@ -726,7 +724,7 @@
   font-size: 40px;
   line-height: 1.175;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--colorDark);
 }
 .mobile__link:hover, .mobile__link:focus {
   color: var(--blueColor);
@@ -744,7 +742,7 @@
   font-size: 34px;
   line-height: 1.176;
   letter-spacing: 0.02em;
-  color: #2196F3;
+  color: var(--blueColor);
 }
 
 .mobile__mail {
@@ -752,7 +750,7 @@
   font-size: 24px;
   line-height: 1.167;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--colorGrey);
   text-decoration: none;
   padding: 32px 0;
 }
@@ -767,7 +765,7 @@
 
 .mobile__social {
   padding: 0 10px;
-  border-left: 1px solid #757575;
+  border-left: 1px solid var(--colorGrey);
 }
 
 .mobile__insta-box {
@@ -784,7 +782,7 @@
   font-size: 18px;
   line-height: 1.22;
   letter-spacing: 0.02em;
-  color: #2196F3;
+  color: var(--blueColor);
 }
 
 @media screen and (min-width: 768px) {

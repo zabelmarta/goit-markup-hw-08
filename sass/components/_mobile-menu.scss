@@ -12,18 +12,17 @@
         &__icon{
             width: 24px;
             height: 16px;
-                
         }
 
         &__button{
-                width: 40px;
-                height: 40px;
+            width: 40px;
+            height: 40px;
             background-color: var(--colorLight);
-            border-color: var(--colorLight) ;
+            border: none ;
             box-shadow: none;
         }
         
-                &__button:hover,
+        &__button:hover,
         &__button:focus{
             fill: var(--blueColor)
         }
