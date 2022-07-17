@@ -68,6 +68,14 @@
     justify-content: space-between;
   }
 }
+body {
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
 .section--grey {
   background-color: var(--colorGrey);
 }
@@ -625,7 +633,7 @@
     padding-top: 32px;
   }
 }
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .mobile-menu {
     display: flex;
     justify-content: center;
@@ -671,8 +679,8 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  min-width: 450px;
-  min-height: 796px;
+  width: 100%;
+  height: 100%;
   background-color: var(--colorLight);
   transition: opacity 800ms;
   z-index: 3;
