@@ -280,6 +280,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  min-width: 320px;
   max-width: 450px;
   min-height: 609px;
   background-color: var(--colorLight);
@@ -388,22 +389,22 @@ body {
 .form__icon--person {
   width: 12px;
   height: 12px;
-  top: 177px;
-  left: 40px;
+  top: 130px;
+  left: 80px;
 }
 
 .form__icon--tele {
   width: 13px;
   height: 13px;
-  top: 245px;
-  left: 40px;
+  top: 200px;
+  left: 80px;
 }
 
 .form__icon--mail {
   width: 15px;
   height: 12px;
-  top: 310px;
-  left: 40px;
+  top: 265px;
+  left: 80px;
 }
 
 .form__textarea {
