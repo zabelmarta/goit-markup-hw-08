@@ -65,12 +65,16 @@
 .form__icon--person {
     width: 12px;
     height: 12px;
+    top: 177px;
+    left: 40px;
 }
 
 
 .form__icon--tele {
     width: 13px;
     height: 13px;
+    top: 245px;
+    left: 40px;
 }
 
 
@@ -78,6 +82,8 @@
 .form__icon--mail {
     width: 15px;
     height: 12px;
+    top:310px;
+    left: 40px;
 }
 
 
@@ -128,7 +134,7 @@
 
     .form__icon--mail {
         top: 265px;
-
+left: 52px;
     }
 
 
@@ -149,13 +155,6 @@
 
 @media screen and (min-width:768px) and (max-width: 1199px) {
     
-        .form__icon--tele {
-            top: 198px;
-            left: 54.27px;
-
-        }
-
-    
      
 .form__icon--person {
     top: 130px;
@@ -171,7 +170,7 @@
 
 .form__icon--mail {
     top: 265px;
-
+left: 52px;
 }
 
 
@@ -206,6 +205,7 @@
 
 .form__icon--mail {
     top: 265px;
+    left:52px;
 }
 
 
