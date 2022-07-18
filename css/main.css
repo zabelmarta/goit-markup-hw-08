@@ -1287,6 +1287,7 @@ body {
   display: flex;
   margin-bottom: 94px;
   padding-left: 0px;
+  flex-wrap: wrap;
 }
 
 .project__item {
