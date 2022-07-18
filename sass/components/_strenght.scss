@@ -10,6 +10,7 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 30px;
+    flex-wrap: wrap;
 }
 
 .strength__icon {
@@ -45,7 +46,7 @@
 @media screen and (min-width:480px) and (max-width: 767px) {
     .strength__box {
 
-        width: 450px; 
+        max-width: 450px; 
     }
 .strength__title {
     justify-content: center;

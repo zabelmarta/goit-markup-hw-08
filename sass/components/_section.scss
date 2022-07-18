@@ -3,8 +3,7 @@
 
     &--grey {
         background-color: var(--colorGrey);
-
-        ;
+        width: auto;
     }
 
     &--dark {
@@ -23,7 +22,7 @@
     list-style-type: none;
     justify-content: space-between;
     align-items: center;
-
+flex-wrap: wrap;
     padding-left: 0px;
     margin: 0px;
     gap: 30px;
@@ -84,8 +83,12 @@
 .section {
     padding-top: 94px;
 
+
     &--grey {
         margin-top: 94px;
     }
+}
+.section__list{
+    flex-wrap: nowrap;
 }
 }

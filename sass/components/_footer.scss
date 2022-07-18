@@ -1,5 +1,5 @@
 .footer {
-    display: block;
+    display: flex;
     flex-direction: column;
     align-items: baseline;
 
@@ -44,7 +44,7 @@
     }
 }
 
-@media screen and (min-width:480px)  {
+@media screen and (max-width:1199px)  {
 .footer,
 .footer__address{
     justify-content: center;

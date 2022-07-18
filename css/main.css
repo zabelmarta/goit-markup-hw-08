@@ -41,7 +41,7 @@
   justify-content: space-around;
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .container {
     max-width: 480px;
   }
@@ -78,6 +78,7 @@ body {
 
 .section--grey {
   background-color: var(--colorGrey);
+  width: auto;
 }
 .section--dark {
   background-color: var(--colorDark);
@@ -93,6 +94,7 @@ body {
   list-style-type: none;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   padding-left: 0px;
   margin: 0px;
   gap: 30px;
@@ -140,6 +142,9 @@ body {
   }
   .section--grey {
     margin-top: 94px;
+  }
+  .section__list {
+    flex-wrap: nowrap;
   }
 }
 .logo {
@@ -591,7 +596,7 @@ body {
   height: 16px;
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .header__list {
     display: none;
   }
@@ -806,6 +811,7 @@ body {
   align-items: center;
   padding-top: 0px;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 .headline__box {
@@ -895,6 +901,7 @@ body {
   align-items: center;
   justify-content: center;
   margin-bottom: 30px;
+  flex-wrap: wrap;
 }
 
 .strength__icon {
@@ -927,7 +934,7 @@ body {
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
   .strength__box {
-    width: 450px;
+    max-width: 450px;
   }
   .strength__title {
     justify-content: center;
@@ -956,6 +963,10 @@ body {
     min-width: 270px;
   }
 }
+.task__list {
+  flex-wrap: wrap;
+}
+
 @media screen and (min-width: 480px) and (max-width: 767px) {
   .task {
     display: none;
@@ -994,6 +1005,10 @@ body {
     background-color: var(--bgLightGrey);
   }
 }
+.team {
+  flex-wrap: wrap;
+}
+
 .team__worker {
   display: inline-block;
   background: var(--colorLight);
@@ -1020,6 +1035,10 @@ body {
 .team__profession {
   color: var(--fontGrey);
   padding-bottom: 16px;
+}
+
+.team__img {
+  width: auto;
 }
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
@@ -1101,7 +1120,7 @@ body {
   }
 }
 .footer {
-  display: block;
+  display: flex;
   flex-direction: column;
   align-items: baseline;
 }
@@ -1135,7 +1154,7 @@ body {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 1199px) {
   .footer,
 .footer__address {
     justify-content: center;
@@ -1169,6 +1188,7 @@ body {
   justify-content: space-between;
   margin-top: 20px;
   gap: 12px;
+  flex-wrap: wrap;
 }
 .send__input {
   height: 50px;
